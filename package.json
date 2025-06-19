@@ -1,0 +1,33 @@
+{
+  "name": "carbon-storybook-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build": "build-storybook",
+    "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^4.0.0",
+    "@storybook/addon-a11y": "^9.0.12",
+    "@storybook/addon-docs": "^9.0.12",
+    "@storybook/addon-vitest": "^9.0.12",
+    "@storybook/react": "^9.0.12",
+    "@storybook/react-vite": "^9.0.12",
+    "@vitest/browser": "^3.2.4",
+    "@vitest/coverage-v8": "^3.2.4",
+    "carbon-components": "^10.59.1",
+    "carbon-components-react": "^7.60.1",
+    "playwright": "^1.53.1",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sass": "^1.89.2",
+    "storybook": "^9.0.12",
+    "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "@carbon/icons-react": "^11.61.0",
+    "carbon-icons": "^7.0.7"
+  }
+}
